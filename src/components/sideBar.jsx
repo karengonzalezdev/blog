@@ -60,9 +60,9 @@ const SideBar = () => {
   };
 
   return (
- <div className='h-screen flex items-end justify-end'>
+ <div className='h-screen flex'>
 
-<button className="fixed lg:hidden z-90 bottom-10 right-10 bg-teal-800 w-10 h-10 rounded-full drop-shadow-lg
+<button className="fixed md:hidden z-90 bottom-10 right-10 bg-teal-800 w-10 h-10 rounded-full drop-shadow-lg
 flex justify-center items-center text-white text-2xl hover:bg-teal-800 duration-300" onClick={toggleSideBar}>
 <span className="text-white">
           <svg
@@ -78,13 +78,13 @@ flex justify-center items-center text-white text-2xl hover:bg-teal-800 duration-
           </svg>
         </span>
 </button>
-<div className={` ${open ? 'w-48' : 'w-0'} lg:w-72 bg-teal-800  h-screen relative duration-500`}>
+<div className={` ${open ? 'w-screen' : 'w-0'} md:w-72 bg-teal-800 h-screen duration-500`}>
 
 <div className="justify-center mt-3">
-    <h1 className={`text-white font-medium text-xl text-center duration-200 ${!open && 'invisible'}`}>LOGO</h1>
+    <h1 className={`text-white font-medium text-xl text-center duration-200 ${!open && 'invisible'} md:visible`}>All</h1>
 </div>
 
-<ul className="pt-6">
+<ul className={`${!open && 'invisible'} md:visible pt-6`}>
 {Menus.map((Menu, index)=>(
 <div key={index}>
 <li  className={`flex rounded-md p-2 cursor-pointer hover:bg-teal-400 text-white text-sm items-center gap-x-4 ${Menu.gap ? 'mt-9' : 'mt-2'}`}>

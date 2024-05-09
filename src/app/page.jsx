@@ -33,7 +33,7 @@ const Homepage = () => {
               
   </div>
 
-  <h1 className="text-3xl font-bold text-white pl-10">Recent:</h1>
+  <h1 className="text-3xl font-bold text-white pl-10 pt-10">Recent:</h1>
           {/* SECTIONS */}
       <div className="flex flex-wrap xl:justify-between items-center justify-center gap-5 h-full pt-2 md:pt-10 pb-[5%] pl-[5%] pr-[5%]">
               {/* CONTAINER 1 */}
