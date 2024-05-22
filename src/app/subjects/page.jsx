@@ -26,8 +26,8 @@ const SubjectsPage = () => {
     </div>
 
    {/* BANNER */}
-   <div className="h-[40%] md:w-[100%] flex bg-yellow-500">
-            <Image src="/example.jpg" alt="BackgroundImage" width={1100} height={400} priority className=""/>
+   <div className="h-[40%] md:w-[100%] flex">
+            <Image src="/example.jpg" alt="Banner" width={1100} height={400} priority className=""/>
         </div>
         </div>
  </div>
