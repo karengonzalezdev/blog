@@ -15,7 +15,7 @@ const SubjectsPage = () => {
 
    <div className="w-[40%] md:w-[30%] p-[10%] sm:p-[11%] md:p-[10%] content-center">
     {/* IMAGE */}
-            <Image src="/down.jpg" alt="Arrow" width={400} height={600} priority className="md:rotate-90 rounded-xl shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#fff,0_0_15px_#fff,0_0_30px_#fff]"/>
+            <Image src="public/down.jpg" alt="Arrow" width={400} height={600} priority className="md:rotate-90 rounded-xl shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#fff,0_0_15px_#fff,0_0_30px_#fff]"/>
         </div>
     {/* TEXT */}
    <div className="text-left content-center p-[5%] w-[60%] md:w-[70%]">
@@ -25,7 +25,7 @@ const SubjectsPage = () => {
 
    {/* BANNER */}
    <div className="h-[40%] md:w-[100%] flex">
-            <Image src="/banner.jpg" alt="Banner" width={1100} height={400} priority className=""/>
+            <Image src="public/banner.jpg" alt="Banner" width={1100} height={400} priority className=""/>
         </div>
         </div>
  </div>

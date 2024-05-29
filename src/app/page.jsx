@@ -13,7 +13,7 @@ const Homepage = () => {
 
         {/* IMAGE CONTAINER */}
     <div className="h-2/3 lg:h-full lg:w-1/2 relative">
-      <Image src="/principal.jpg" alt="BackgroundImage" fill priority className="border-5 border-black border-opacity-10 rounded-sm"/>
+      <Image src="public/principal.jpg" alt="BackgroundImage" fill priority className="border-5 border-black border-opacity-10 rounded-sm"/>
     </div>
 
         {/* TEXT CONTAINER */}

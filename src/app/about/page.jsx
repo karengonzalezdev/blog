@@ -16,7 +16,7 @@ const AboutPage = () => {
     {/* IMAGE */}
         <div className="h-1/2 md:h-screen md:w-1/2 flex p-5">
             <div className="flex h-[15rem] sm:h-[18rem] md:h-[26rem] lg:h-[30rem] w-[15rem] sm:w-[19rem] md:w-[23rem] lg:w-[30rem] rounded-xl m-auto">
-            <Image src="/about.jpg" alt="BackgroundImage" width={600} height={400} priority className="rounded-xl"/>
+            <Image src="public/about.jpg" alt="BackgroundImage" width={600} height={400} priority className="rounded-xl"/>
             </div>
         </div>
  </div>
