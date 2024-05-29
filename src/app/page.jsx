@@ -41,7 +41,7 @@ const Homepage = () => {
                 {/* TEXT */}
                 <div className="h-[100%] pt-6 pl-6 pr-6 pb-6 text-center content-center">
                   <div className="text-3xl font-bold pb-3">
-                  <Link href="/blog/javascript">Javascript</Link>
+                  <Link href="/javascript">Javascript</Link>
                   </div>
                   <p className="text-xl">Programming language</p>
                   <p className="text-8xl font-bold">&lt; &gt;</p>
@@ -52,7 +52,7 @@ const Homepage = () => {
                 {/* TEXT */}
                 <div className="h-[100%] pt-6 pl-6 pr-6 pb-6 text-center content-center">
                   <div className="text-3xl font-bold pb-3">
-                  <Link href="/blog/react">React</Link>
+                  <Link href="/react">React</Link>
                   </div>
                   <p className="text-xl">Programming language</p>
                   <p className="text-8xl font-bold">;</p>
@@ -63,7 +63,7 @@ const Homepage = () => {
                 {/* TEXT */}
                 <div className="h-[100%] pt-6 pl-6 pr-6 pb-6 text-center content-center">
                   <div className="text-3xl font-bold pb-3">
-                  <Link href="/blog/html">HTML</Link>
+                  <Link href="/html">HTML</Link>
                   </div>
                   <p className="text-xl">Programming language</p>
                   <p className="text-8xl font-bold">&#123; &#125;</p>
@@ -73,7 +73,7 @@ const Homepage = () => {
               <div className="h-[6rem] w-[16rem] sm:h-[8rem] sm:w-[19rem] lg:h-[8rem] lg:w-[8rem] bg-neonYellow hover:scale-105 transition-all rounded-xl shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#ff0,0_0_15px_#ff0,0_0_30px_#ff0]">
                 {/* TEXT */}
                   <div className="h-[100%] text-5xl font-bold text-center content-center">
-                  <Link href="/blog/subjects">+</Link>
+                  <Link href="/subjects">+</Link>
                   </div>
                 </div>
 
