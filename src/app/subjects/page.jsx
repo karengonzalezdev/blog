@@ -13,21 +13,19 @@ const SubjectsPage = () => {
    <div className="md:w-4/5 flex flex-col">
    <div className="h-[60%] flex flex-row-reverse md:flex-row">
 
-   <div className="bg-green-500 w-[40%] md:w-[30%] content-center">
+   <div className="w-[40%] md:w-[30%] p-[10%] sm:p-[11%] md:p-[10%] content-center">
     {/* IMAGE */}
-            <div className="flex h-[5rem] sm:h-[30%] md:h-[8rem] lg:h-[12rem] w-[6rem] pt-2 sm:pt-0 sm:w-[50%] md:w-[80%] m-auto rounded-xl rotate-90 md:rotate-0">
-            <Image src="/example.jpg" alt="Arrow" width={600} height={400} priority className="rounded-xl"/>
-            </div>
+            <Image src="/down.jpg" alt="Arrow" width={400} height={600} priority className="md:rotate-90 rounded-xl shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#fff,0_0_15px_#fff,0_0_30px_#fff]"/>
         </div>
     {/* TEXT */}
-   <div className="bg-red-500 text-left content-center pl-[5%] w-[60%] md:w-[70%]">
+   <div className="text-left content-center p-[5%] w-[60%] md:w-[70%]">
     <h1 className="text-white font-bold text-3xl sm:text-5xl text-center">Start exploring</h1>
     </div>
     </div>
 
    {/* BANNER */}
    <div className="h-[40%] md:w-[100%] flex">
-            <Image src="/example.jpg" alt="Banner" width={1100} height={400} priority className=""/>
+            <Image src="/banner.jpg" alt="Banner" width={1100} height={400} priority className=""/>
         </div>
         </div>
  </div>

@@ -19,7 +19,7 @@ const TransitionProvider = ({children}) => {
         <NavBar />
         </div>
         <div className="">{children}</div>
-        <div className="">
+        <div className="relative">
           <Footer />
         </div>
         </div>
