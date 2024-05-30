@@ -1,5 +1,5 @@
 &nbsp;&nbsp;&nbsp;&nbsp; ⭐ See Demo ⭐ <br/>
-[Technology Blog](https://karenfggutierrez.github.io/blog/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Technology Blog](https://karenfggutierrez.github.io/blog/)
 
 <br/>
 
