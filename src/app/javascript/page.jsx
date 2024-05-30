@@ -1,5 +1,4 @@
 import SideBar from "@/components/sideBar";
-import Image from "next/image";
 
 const JavascriptPage = () => {
     return (
