@@ -9,7 +9,7 @@ const MicroservicesPage = () => {
         </div>
     
         {/* SIDEBAR */}
-        <div className="relative md:absolute w-full md:w-1/5">
+        <div className="absolute w-full md:w-1/5">
             <SideBar />
         </div>
     

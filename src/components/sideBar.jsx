@@ -132,14 +132,14 @@ const Menus = [
       },
       {
         title: 'React.js',
-        url: '/react',
+        url: '/reactjs',
         icon: <FaReact />,
 
         cName: 'sub-nav',
       },
       {
         title: 'Next.js',
-        url: '/next',
+        url: '/nextjs',
         icon: <RiNextjsFill />,
 
         cName: 'sub-nav',
@@ -152,8 +152,8 @@ const Menus = [
         cName: 'sub-nav',
       },
       {
-        title: 'Tailwind',
-        url: '/tailwind',
+        title: 'Tailwind CSS',
+        url: '/tailwind-css',
         icon: <RiTailwindCssFill />,
 
         cName: 'sub-nav',
@@ -181,7 +181,7 @@ const Menus = [
     subMenu3: [
       {
         title: 'Node.js',
-        url: '/node',
+        url: '/nodejs',
         icon: <FaNodeJs />,
 
         cName: 'sub-nav',
@@ -196,6 +196,13 @@ const Menus = [
       {
         title: 'SpringBoot',
         url: '/springboot',
+        icon: <SiSpringboot />,
+
+        cName: 'sub-nav',
+      },
+      {
+        title: 'Spring Security',
+        url: '/spring-security',
         icon: <SiSpringboot />,
 
         cName: 'sub-nav',
@@ -216,14 +223,14 @@ const Menus = [
       },
       {
         title: 'API REST',
-        url: '/rest',
+        url: '/api-rest',
         icon: <TbApiApp />,
 
         cName: 'sub-nav',
       },
       {
         title: 'API SOAP',
-        url: '/soap',
+        url: '/api-soap',
         icon: <TbApi />,
 
         cName: 'sub-nav',
@@ -251,7 +258,7 @@ const Menus = [
       },
       {
         title: 'Oracle Database',
-        url: '/oracle',
+        url: '/oracle-database',
         icon: <SiOracle />,
 
         cName: 'sub-nav',
@@ -285,8 +292,8 @@ const Menus = [
         cName: 'sub-nav',
       },
       {
-        title: 'TortoiseSVN',
-        url: '/tortoise',
+        title: 'Tortoise SVN',
+        url: '/tortoise-svn',
         icon: <GiTortoise />,
 
         cName: 'sub-nav',
@@ -300,7 +307,7 @@ const Menus = [
     subMenu6: [
       {
         title: 'Azure DevOps',
-        url: '/azure',
+        url: '/azure-devops',
         icon: <SiAzuredevops />,
 
         cName: 'sub-nav',
@@ -314,7 +321,7 @@ const Menus = [
       },
       {
         title: 'Google Cloud',
-        url: '/google',
+        url: '/google-cloud',
         icon: <SiGooglecloud />,
 
         cName: 'sub-nav',
@@ -342,7 +349,7 @@ const Menus = [
       },
       {
         title: 'UX/UI',
-        url: '/uxui',
+        url: '/ux-ui',
         icon: <TbUxCircle />,
 
         cName: 'sub-nav',
@@ -370,7 +377,7 @@ const Menus = [
     subMenu8: [
       {
         title: 'Visual Studio Code',
-        url: '/ides',
+        url: '/visual-studio-code',
         icon: <SiVisualstudiocode />,
 
         cName: 'sub-nav',
@@ -384,7 +391,7 @@ const Menus = [
       },
       {
         title: 'Intellij Idea',
-        url: '/intellij',
+        url: '/intellij-idea',
         icon: <SiIntellijidea />,
 
         cName: 'sub-nav',
@@ -440,14 +447,14 @@ const Menus = [
       },
       {
         title: 'Apache Tomcat',
-        url: '/tomcat',
+        url: '/apache-tomcat',
         icon: <SiApachetomcat />,
 
         cName: 'sub-nav',
       },
       {
         title: 'Apache Maven',
-        url: '/maven',
+        url: '/apache-maven',
         icon: <SiApachemaven />,
 
         cName: 'sub-nav',
@@ -502,8 +509,8 @@ const Menus = [
         cName: 'sub-nav',
       },
       {
-        title: 'Microsoft Office',
-        url: '/office',
+        title: 'Office Package',
+        url: '/office-package',
         icon: <FaMicrosoft />,
 
         cName: 'sub-nav',
@@ -552,7 +559,7 @@ const Menus = [
       },
       {
         title: 'Linux Shell',
-        url: '/linux',
+        url: '/linux-shell',
         icon: <FaLinux />,
 
         cName: 'sub-nav',
