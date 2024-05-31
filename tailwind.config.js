@@ -38,6 +38,7 @@ module.exports = {
       neonYellow: 'rgb(255, 231, 0)',
       neonPink: 'rgb(254, 1, 154)',
       neonBlue: 'rgb(77, 238, 234)',
+      borgonia: 'rgb(30, 0, 29)',
     }
   },
   plugins: [
