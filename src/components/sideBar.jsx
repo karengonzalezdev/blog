@@ -594,9 +594,9 @@ const SideBar = () => {
   return (
  <div className='h-screen flex'>
 
-<button className="fixed md:hidden z-90 bottom-10 right-10 bg-purple-900 w-20 h-20 rounded-full drop-shadow-lg
-flex justify-center items-center text-white text-2xl hover:bg-purple-400 duration-300" onClick={toggleSideBar}>
-<span className="text-white">
+<button className="fixed md:hidden z-90 bottom-10 right-10 bg-purple-950 w-20 h-20 rounded-full drop-shadow-lg
+flex justify-center items-center text-neonGreen text-2xl hover:bg-purple-700 duration-300" onClick={toggleSideBar}>
+<span className="text-neonGreen">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -610,7 +610,7 @@ flex justify-center items-center text-white text-2xl hover:bg-purple-400 duratio
           </svg>
         </span>
 </button>
-<div className={` ${open ? 'w-screen' : 'w-0'} md:w-72 overflow-auto bg-purple-600 h-screen duration-500`}>
+<div className={` ${open ? 'w-screen' : 'w-0'} md:w-72 overflow-auto bg-borgonia text-neonYellow h-screen duration-500`}>
 
 <div className="justify-center mt-3">
     <h1 className={`text-neonGreen font-medium text-2xl text-center duration-200 ${!open && 'invisible'} md:visible`}>All</h1>
@@ -619,7 +619,7 @@ flex justify-center items-center text-white text-2xl hover:bg-purple-400 duratio
 <ul className={`${!open && 'invisible'} md:visible`}>
 {Menus.map((Menu, index)=>(
 <div key={index}>
-<li  className={`flex rounded-md p-2 cursor-pointer hover:bg-purple-400 text-white text-lg items-center gap-x-4 ${Menu.gap ? 'mt-9' : 'mt-2'}`}>
+<li  className={`flex rounded-md p-2 cursor-pointer hover:bg-purple-700 hover:text-neonBlue text-neonYellow text-lg items-center gap-x-4 ${Menu.gap ? 'mt-9' : 'mt-2'}`}>
 {Menu.icon}
 <span className="flex-1">
   {Menu.title}
@@ -643,7 +643,7 @@ flex justify-center items-center text-white text-2xl hover:bg-purple-400 duratio
                   {Menu.subMenu.map((subMenuItem, idx) => (
                     <li
                     key={idx}
-                    className="flex px-5 cursor-pointer items-center text-center text-sm text-gray-200 py-1"
+                    className="flex px-5 cursor-pointer items-center text-center text-sm text-neonYellow py-1"
                     >
                       <NavSrc link={subMenuItem} key={subMenuItem.title} />
                   </li>
@@ -657,7 +657,7 @@ flex justify-center items-center text-white text-2xl hover:bg-purple-400 duratio
                   {Menu.subMenu2.map((subMenuItem, idx) => (
                     <li
                       key={idx}
-                      className="flex px-5 cursor-pointer items-center text-center text-sm text-gray-200 py-1"
+                      className="flex px-5 cursor-pointer items-center text-center text-sm text-neonYellow py-1"
                       > 
                       <NavSrc link={subMenuItem} key={subMenuItem.title} />
                     </li>
@@ -671,7 +671,7 @@ flex justify-center items-center text-white text-2xl hover:bg-purple-400 duratio
                   {Menu.subMenu3.map((subMenuItem, idx) => (
                     <li
                       key={idx}
-                      className="flex px-5 cursor-pointer items-center text-center text-sm text-gray-200 py-1"
+                      className="flex px-5 cursor-pointer items-center text-center text-sm text-neonYellow py-1"
                     > 
                     <NavSrc link={subMenuItem} key={subMenuItem.title} />
                     </li>
@@ -685,7 +685,7 @@ flex justify-center items-center text-white text-2xl hover:bg-purple-400 duratio
                   {Menu.subMenu4.map((subMenuItem, idx) => (
                     <li
                       key={idx}
-                      className="flex px-5 cursor-pointer items-center text-center text-sm text-gray-200 py-1"
+                      className="flex px-5 cursor-pointer items-center text-center text-sm text-neonYellow py-1"
                     > 
                     <NavSrc link={subMenuItem} key={subMenuItem.title} />
                     </li>
@@ -699,7 +699,7 @@ flex justify-center items-center text-white text-2xl hover:bg-purple-400 duratio
                   {Menu.subMenu5.map((subMenuItem, idx) => (
                     <li
                       key={idx}
-                      className="flex px-5 cursor-pointer items-center text-center text-sm text-gray-200 py-1"
+                      className="flex px-5 cursor-pointer items-center text-center text-sm text-neonYellow py-1"
                     > 
                     <NavSrc link={subMenuItem} key={subMenuItem.title} />
                     </li>
@@ -713,7 +713,7 @@ flex justify-center items-center text-white text-2xl hover:bg-purple-400 duratio
                   {Menu.subMenu6.map((subMenuItem, idx) => (
                     <li
                       key={idx}
-                      className="flex px-5 cursor-pointer items-center text-center text-sm text-gray-200 py-1"
+                      className="flex px-5 cursor-pointer items-center text-center text-sm text-neonYellow py-1"
                     > 
                     <NavSrc link={subMenuItem} key={subMenuItem.title} />
                     </li>
@@ -727,7 +727,7 @@ flex justify-center items-center text-white text-2xl hover:bg-purple-400 duratio
                   {Menu.subMenu7.map((subMenuItem, idx) => (
                     <li
                       key={idx}
-                      className="flex px-5 cursor-pointer items-center text-center text-sm text-gray-200 py-1"
+                      className="flex px-5 cursor-pointer items-center text-center text-sm text-neonYellow py-1"
                     > 
                     <NavSrc link={subMenuItem} key={subMenuItem.title} />
                     </li>
@@ -741,7 +741,7 @@ flex justify-center items-center text-white text-2xl hover:bg-purple-400 duratio
                   {Menu.subMenu8.map((subMenuItem, idx) => (
                     <li
                       key={idx}
-                      className="flex px-5 cursor-pointer items-center text-center text-sm text-gray-200 py-1"
+                      className="flex px-5 cursor-pointer items-center text-center text-sm text-neonYellow py-1"
                     > 
                     <NavSrc link={subMenuItem} key={subMenuItem.title} />
                     </li>
@@ -755,7 +755,7 @@ flex justify-center items-center text-white text-2xl hover:bg-purple-400 duratio
                   {Menu.subMenu9.map((subMenuItem, idx) => (
                     <li
                       key={idx}
-                      className="flex px-5 cursor-pointer items-center text-center text-sm text-gray-200 py-1"
+                      className="flex px-5 cursor-pointer items-center text-center text-sm text-neonYellow py-1"
                     > 
                     <NavSrc link={subMenuItem} key={subMenuItem.title} />
                     </li>

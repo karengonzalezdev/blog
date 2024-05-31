@@ -18,8 +18,20 @@ const SubjectsPage = () => {
             <Image src="./down.jpg" alt="Arrow" width={400} height={600} priority className="md:rotate-90 rounded-xl shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#fff,0_0_15px_#fff,0_0_30px_#fff]"/>
         </div>
     {/* TEXT */}
-   <div className="text-left content-center p-[5%] w-[60%] md:w-[70%]">
-    <h1 className="text-white font-bold text-3xl sm:text-5xl text-center">Start exploring</h1>
+   <div className="flex text-left items-center content-center p-[5%] w-[60%] md:w-[70%]">
+    <h1 className="text-neonPink font-bold text-3xl sm:text-5xl text-center">S</h1>
+    <h1 className="text-neonYellow font-bold text-3xl sm:text-5xl text-center">t</h1>
+    <h1 className="text-neonBlue font-bold text-3xl sm:text-5xl text-center">a</h1>
+    <h1 className="text-neonGreen font-bold text-3xl sm:text-5xl text-center">r</h1>
+    <h1 className="text-neonPink font-bold text-3xl sm:text-5xl text-center">t E</h1>
+    <h1 className="text-neonBlue font-bold text-3xl sm:text-5xl text-center">x</h1>
+    <h1 className="text-neonYellow font-bold text-3xl sm:text-5xl text-center">p</h1>
+    <h1 className="text-neonGreen font-bold text-3xl sm:text-5xl text-center">l</h1>
+    <h1 className="text-neonPink font-bold text-3xl sm:text-5xl text-center">o</h1>
+    <h1 className="text-neonYellow font-bold text-3xl sm:text-5xl text-center">r</h1>
+    <h1 className="text-neonGreen font-bold text-3xl sm:text-5xl text-center">i</h1>
+    <h1 className="text-neonBlue font-bold text-3xl sm:text-5xl text-center">n</h1>
+    <h1 className="text-neonPink font-bold text-3xl sm:text-5xl text-center">g</h1>
     </div>
     </div>
 

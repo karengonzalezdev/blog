@@ -70,7 +70,7 @@ const listItemVariants = {
  return (
     <div className='h-full relative bg-first flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl'>
         {/* LINKS */}
-        <div className="hidden md:flex gap-7 w-full text-white">
+        <div className="hidden md:flex gap-7 w-full text-neonGreen">
         {links.map((link)=>(
         <NavLink link={link} key={link.title} />
     ))} 
@@ -91,7 +91,7 @@ const listItemVariants = {
     </button>
     {/* MENU LIST */}
     { open && (
-    <motion.div variants={listVariants} initial="closed" animate="opened" className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-40">
+    <motion.div variants={listVariants} initial="closed" animate="opened" className="absolute top-0 left-0 w-screen h-screen bg-borgonia text-neonGreen flex flex-col items-center justify-center gap-8 text-4xl z-40">
     {links.map(link=>(
     <motion.div variants={listItemVariants} className="" key={link.title}>
         <Link href={link.url}>{link.title}</Link>
