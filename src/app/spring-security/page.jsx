@@ -15,7 +15,7 @@ const SpringSecurityPage = () => {
     
         {/* TEXT */}
         <div className="text-white py-8 px-20 md:w-4/5 flex flex-col">
-            <h1 className="text-3xl md:text-7xl text-center pb-5">Spring Security</h1>
+            <h1 className="text-neonGreen text-3xl md:text-7xl text-center pb-5">Spring Security</h1>
             <p className="text-justify text-xl md:text-2xl py-2">Spring Security is a Spring framework, and the default standard for securing applications based on Spring.</p>
             <p className="text-justify text-xl md:text-2xl py-2"></p>
             <p className="text-justify text-xl md:text-2xl py-2"></p>

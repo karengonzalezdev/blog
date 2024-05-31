@@ -31,9 +31,26 @@ const Footer = () => {
 <div className="w-[17%] sm:w-[33%] md:w-[37%] xl:w-[41%] h-1 bg-pink-500 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#f0f,0_0_15px_#f0f,0_0_30px_#f0f]"></div>
 </div>
 {/* TEXT */}
-<div className="pt-5 text-white text-center">
-<h1 className="font-bold text-2xl text-glitch text-glitch-duration-slow">Technology Blog</h1>
-<p>By Karen Gonzalez</p>
+<div className="flex flex-col pt-5 text-white text-center">
+<div className="flex font-bold text-2xl justify-center">
+           <h1 className="text-neonPink">T</h1>
+           <h1 className="text-neonGreen">e</h1>
+           <h1 className="text-orange-500">c</h1>
+           <h1 className="text-neonBlue">h</h1>
+           <h1 className="text-neonPink">n</h1>
+           <h1 className="text-neonGreen">o</h1>
+           <h1 className="text-orange-500">l</h1>
+           <h1 className="text-neonBlue">o</h1>
+           <h1 className="text-neonYellow">g</h1>
+           <h1 className="text-neonPink">y</h1>
+           <h1 className="text-orange-500">&nbsp; B</h1>
+           <h1 className="text-neonBlue">l</h1>
+           <h1 className="text-neonYellow">o</h1>
+           <h1 className="text-neonPink">g</h1>
+          </div>
+          <div>
+            <p>By Karen Gonzalez</p>
+          </div>
 </div>
 
  </div>

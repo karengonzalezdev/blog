@@ -19,11 +19,24 @@ const Homepage = () => {
         {/* TEXT CONTAINER */}
         <div className="h-1/3 lg:h-full lg:w-1/2 px-4 flex flex-col gap-5 items-center justify-center text-white text-justify sm:px-6 md:px-8 lg:px-12 xl:px-18 pt-5 sm:pt-5 md:pt-0 lg:pt-0 xl:pt-0 mt-6 sm:mt-6 md:mt-0 lg:mt-0 xl:mt-0">
           {/* TITLE */}
-          <h1 className="text-center text-5xl sm:text-6xl md:text-6xl lg:text-6xl xl:text-6xl font-bold cyberpunk-font text-glitch text-glitch-duration-slow">
-            Technology 
-            <br />
-            Blog
-          </h1>
+          <div className="flex text-center text-5xl sm:text-6xl md:text-6xl lg:text-6xl xl:text-6xl font-bold">
+           <h1 className="text-neonPink">T</h1>
+           <h1 className="text-neonGreen">e</h1>
+           <h1 className="text-orange-500">c</h1>
+           <h1 className="text-neonBlue">h</h1>
+           <h1 className="text-neonPink">n</h1>
+           <h1 className="text-neonGreen">o</h1>
+           <h1 className="text-orange-500">l</h1>
+           <h1 className="text-neonBlue">o</h1>
+           <h1 className="text-neonYellow">g</h1>
+           <h1 className="text-neonPink">y</h1>
+          </div>
+          <div className="flex text-center text-5xl sm:text-6xl md:text-6xl lg:text-6xl xl:text-6xl font-bold">
+          <h1 className="text-neonGreen">B</h1>
+          <h1 className="text-neonPink">l</h1>
+          <h1 className="text-neonYellow">o</h1>
+          <h1 className="text-neonBlue">g</h1>
+          </div>
           {/* DESC */}
           <p className="text-xl lg:text-2xl xl:text-2xl">
             By Karen Gonzalez

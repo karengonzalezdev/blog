@@ -6,7 +6,19 @@ const AboutPage = () => {
  
     {/* TEXT */}
     <div className="w-full md:w-1/2 h-1/2 md:h-screen text-center content-center px-[10%] pt-[5%] pb-[2%] md:p-[5%] text-white">
-        <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold pb-7">About my blog</h1>
+        <div className="flex text-3xl md:text-4xl lg:text-5xl justify-center font-bold pb-7">
+        <h1 className="text-neonPink">A</h1>
+        <h1 className="text-neonBlue">b</h1>
+        <h1 className="text-orange-500">o</h1>
+        <h1 className="text-neonYellow">u</h1>
+        <h1 className="text-neonPink">t</h1>
+        <h1 className="text-neonGreen">&nbsp; m</h1>
+        <h1 className="text-orange-500">y</h1>
+        <h1 className="text-neonBlue">&nbsp; b</h1>
+        <h1 className="text-neonYellow">l</h1>
+        <h1 className="text-neonPink">o</h1>
+        <h1 className="text-neonGreen">g</h1>
+        </div>
         <p className="text-lg sm:text-xl md:text-2xl">
             This Blog was created by Karen González, a Front End Developer. 
             The main purpose of this Blog is to document the technologies I have acquired, what I have learned about them, writing the concepts with my own words, as I understand them.
