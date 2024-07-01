@@ -5,8 +5,20 @@ import TransitionProvider from "@/components/transitionProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Technology Blog",
-  description: "Created by Karen Gonzalez",
+  metadataBase: new URL("https://karenfggutierrez.github.io/blog"),
+
+  openGraph: {
+    title: "Technology blog",
+    description: "Karen Gonzalez blog",
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/TechnologyBlog.PNG",
+        width: 800,
+        heigh: 600,
+        alt: "blog"
+      }
+    ]
+  }
 };
 
 export default function RootLayout({ children }) {
