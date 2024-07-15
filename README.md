@@ -1,5 +1,5 @@
 &nbsp;&nbsp;&nbsp;&nbsp; ⭐ See Page ⭐ <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Technology Blog](https://karengonzalezdev.github.io/blog/)
+&nbsp;&nbsp;&nbsp;&nbsp; [Technology Blog](https://karengonzalezdev.github.io/blog/)
 
 <br/>
 
