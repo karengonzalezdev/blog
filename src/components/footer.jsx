@@ -12,16 +12,16 @@ const Footer = () => {
  <div className="h-[11rem] bg-second relative">
 {/* SOCIAL */}
 <div className="flex w-full gap-5 pt-5 justify-center">
-<Link href="https://www.linkedin.com/in/karenfggutierrez/" target="_blank" className="">
+<Link href="https://www.linkedin.com/in/karengonzalezdev/" target="_blank" className="">
 <FaLinkedin size={35} className="text-neonBlue shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]" />
 </Link>
-<Link href="https://karenfggutierrez.github.io/portfolio" target="_blank" className="">
+<Link href="https://karengonzalezdev.github.io/portfolio" target="_blank" className="">
 <TbWorld size={35} className="text-neonGreen shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#0f0,0_0_15px_#0f0,0_0_30px_#0f0]" />
 </Link>
-<Link href="mailto:karenfggutierrez@gmail.com" target="_blank" className="">
+<Link href="mailto:karengonzalezdev@gmail.com" target="_blank" className="">
 <MdEmail size={35} className="text-neonPink shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#f0f,0_0_15px_#f0f,0_0_30px_#f0f]"/>
 </Link>
-<Link href="https://github.com/karenfggutierrez" target="_blank" className="">
+<Link href="https://github.com/karengonzalezdev" target="_blank" className="">
 <FaGithub size={35} className="text-neonYellow shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#ff0,0_0_15px_#ff0,0_0_30px_#ff0]"/>
 </Link>
 </div>
