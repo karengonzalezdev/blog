@@ -67,6 +67,7 @@ const listItemVariants = {
     }
 }
 
+// Return from the component
  return (
     <div className='h-full relative bg-first flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl'>
         {/* LINKS */}
